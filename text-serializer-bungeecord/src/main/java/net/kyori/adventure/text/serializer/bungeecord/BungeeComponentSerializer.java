@@ -147,7 +147,7 @@ public final class BungeeComponentSerializer implements ComponentSerializer<Comp
     }
   }
 
-  /* package */ class AdapterComponent extends BaseComponent implements SelfSerializable {
+  class AdapterComponent extends BaseComponent implements SelfSerializable {
     private final Component component;
     private volatile String legacy;
 
